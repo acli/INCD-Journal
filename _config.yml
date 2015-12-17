@@ -1,6 +1,6 @@
 #
 # This file contains configuration flags to customize your site
-# vi: set sw=2 ai sm:
+# vi: set sw=2 ai sm et:
 #
 
 # Name of your site (displayed in the header)
@@ -18,5 +18,5 @@ prose:
     _posts:
       - name: "layout"
 	field:
-	  element: hidden
-	  value: "post"
+          element: "hidden"
+          value: "post"
