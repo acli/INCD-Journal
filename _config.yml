@@ -17,6 +17,6 @@ prose:
   metadata:
     _posts:
       - name: "layout"
-	field:
+        field:
           element: "hidden"
           value: "post"
