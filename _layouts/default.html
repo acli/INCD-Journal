@@ -83,13 +83,15 @@
 			<div class="mdl-grid">
 				<div class="mdl-cell mdl-cell--1-col"></div>
 				<div class="mdl-cell mdl-cell--10-col">
-					<section role="complementary">
+					<section role="complementary" id=journal-entries>
 						<h1>Journal Entries</h1>
+						<ul>
 				      		{% assign posts = site.posts %}
 						{% for p in posts %}
 							<!-- Accent-colored raised button with ripple -->
-				    			<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{site.url}}{{ p.url }}">{{ p.title }}</a>
+				    			<li><a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{site.url}}{{ p.url }}">{{ p.title }}</a>
 						{% endfor %}
+						</ul>
 					</section>
 				</div>
 				<div class="mdl-cell mdl-cell--1-col"></div>
