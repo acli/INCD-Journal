@@ -1,5 +1,6 @@
 #
 # This file contains configuration flags to customize your site
+# vi: set sw=2 ai sm:
 #
 
 # Name of your site (displayed in the header)
@@ -10,3 +11,12 @@ baseurl: http://acli.github.io/INCD-Journal
 # Short bio or description (displayed in the header)
 description: This is a test. Please ignore.
 
+# ----------- NO USER SERVICEABLE PARTS BELOW ----------------
+
+prose:
+  metadata:
+    _posts:
+      - name: "layout"
+	field:
+	  element: "hidden"
+	  value: "post"
