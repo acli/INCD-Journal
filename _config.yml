@@ -20,3 +20,7 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
