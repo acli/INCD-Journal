@@ -10,7 +10,7 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: <abbr class=dt-published title="%Y-%m-%d %H:%M%z">"%B %e, %Y"</abbr> }}
+    Written on <time datetime={{ page.date | date: "%Y-%m-%d %H:%M%z" }}>{{ page.date | date: "%B %e, %Y"</abbr> }}</time>
   </div>
 
 </article>
