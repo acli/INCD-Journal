@@ -3,6 +3,10 @@ layout: default
 title: INCD Design Journal
 published: true
 ---
+This is a copy of Edgar’s journal. His original introduction is as follows:
+
+<hr>
+
 # Accessible Design Journal Platform
 This is my simple attempt at creating an easy to use, WCAG Compliant Design Journal platform for the INCD Echo cohort. I'll be focusing on commenting and documentation to make sure the journal easy to use and work with. My aim is a platform that's easy to use, and painless to make quick posts in (so it can be used in context). I'm hoping that users learn more about accessible web standards, working with Github itself (social coding), and deploying performant, scalable websites.
 
