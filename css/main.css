@@ -246,16 +246,6 @@ h3 a:visited
     font-style:italic
     }
 
-.journal-entries ul {
-    display: block;
-}
-.journal-entries ul li {
-    display: inline;
-}
-.journal-entries ul li + li {
-    content: " ";	/* hack to reproduce the visual look of the original unstructured sequence */
-}
-
 /** FOOTER **/
 #footer  {
     font-family: Arial, Helvetica, sans-serif;

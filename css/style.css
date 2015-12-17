@@ -1,3 +1,5 @@
+/* vi: set sw=4 ai sm */
+
 #logo_image {
   height: 100%;
 }
@@ -9,3 +11,14 @@
 .mdl-layout__header-row .mdl-navigation__link {
   color: #333;
 }
+
+.journal-entries ul {
+    display: block;
+}
+.journal-entries ul li {
+    display: inline;
+}
+.journal-entries ul li + li {
+    content: " ";	/* hack to reproduce the visual look of the original unstructured sequence */
+}
+
