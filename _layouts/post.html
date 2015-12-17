@@ -9,8 +9,8 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on <data value="{{ page.date | date: "%Y-%m-%d %H:%M%z" }}">{{ page.date | date: "%B %e, %Y"</abbr> }}</data>
+  <div class="date dt-published">
+    Written on <time datetime="{{ page.date | date: "%Y-%m-%d %H:%M%z" }}">{{ page.date | date: "%B %e, %Y"</abbr> }}</time>
   </div>
 
 </article>
